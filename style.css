@@ -1,0 +1,141 @@
+ /* Global Css */
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+ }
+ .global-btn {
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+ }
+ .global-btnm {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+ }
+ .global-section {
+    padding: 3rem 0;
+    text-align: center;
+ }
+ .global-heading {
+    font-size: 55px;
+    
+    margin-bottom: 8px;
+ }
+ .global-head-p  {
+    color: #787878;
+ }
+ /* This is header  */
+ header {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 5rem;
+ }
+ .main-menu ul li {
+   display: inline;
+   margin-right: 10px;
+ }
+
+ /* frist section  */
+ .frist-section{
+    background-image: url(loo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    color: white;
+    text-align: center;
+ }
+ .frist-section p{
+    font-size: 2rem;
+ }
+ .frist-section h2 {
+    font-size: 5rem;
+    margin: 10px 0;
+ }
+ /* About us Section */
+ .about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .about-sub-div2 {
+    width: 500px;
+ }
+ .about-sub-div2 h2 {
+    font-size: 33px;
+ }
+ .about-sub-div2  p {
+    color: #787878;
+    margin: 15px 0;
+ }
+ /* This is service area  */
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+ .grid-single-item {
+    padding: 50px;
+    text-align: center;
+ }
+ .grid-single-item h2 {
+    margin: 15px 0;
+ }
+ .grid-single-item p {
+    color: #787878;
+ }
+ .custom-icon-size {
+    font-size: 55px;
+ }
+ /* work section  */
+ .work-single-img {
+   width: 200px;
+ }
+ /* Testimonial Section  */
+ .testimonial-p {
+   color: black !important;
+   margin-top: 5px;
+ }
+ /* contact section  */
+ .contact-heading {
+   font-size: 55px;
+   text-align: center;
+ }
+ form {
+   margin-left: 28rem;
+   margin-top: 20px;
+ }
+ form input {
+   width: 450px;
+ }
+ form textarea {
+   width: 450px;
+ }
+ .submit-btn {
+   width: 150px;
+   height: 25px;
+   background-color: black;
+   color: white;
+   margin-top: 10px;
+ }
+ /* This is footer  */
+ footer {
+   background-color: black;
+   text-align: center;
+   color: white;
+   height: 3rem;
+   margin-top: 15px;
+ }
+ footer p {
+   padding-top: 15px;
+ }
+
+  
